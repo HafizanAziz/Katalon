@@ -15,15 +15,15 @@
       <testDataId>Data Files/CURA Healthcare Service/List of Name - Booking/List of Name</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>ec7edec8-f42f-4b1c-b1d8-b4190d471cac</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Date</value>
       <variableId>ff9abcf9-1de6-4398-935a-6630dd8adfbc</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>ec7edec8-f42f-4b1c-b1d8-b4190d471cac</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Comment</value>
       <variableId>d8e6700a-049e-4f7a-89e6-29ef55c2a974</variableId>
    </variableLinks>
    <variable>
