@@ -17,26 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('')
-WebUI.takeScreenshot("Open Browser.png")
-WebUI.delay(5)
-WebUI.takeScreenshot("OpenBrowser.png")
+
+WebUI.takeScreenshot('Open Browser.png')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot('OpenBrowser.png')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
 WebUI.delay(5)
-WebUI.takeScreenshot("navigateToUrl.png")
+
+WebUI.takeScreenshot('navigateToUrl.png')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Login/a_Make Appointment'))
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service_Login/input_username'), 'John Doe')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service_Login/input_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+
 WebUI.delay(3)
-WebUI.takeScreenshot("SetUsername_Password.png")
+
+WebUI.takeScreenshot('SetUsername_Password.png')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Login/button_Login'))
-WebUI.delay(3)
-WebUI.takeScreenshot("New Test Case 1_Login.png")
 
+WebUI.delay(3)
+
+WebUI.takeScreenshot('New Test Case 1_Login.png')
 
