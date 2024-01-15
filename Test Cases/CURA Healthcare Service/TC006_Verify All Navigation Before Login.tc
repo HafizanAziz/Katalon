@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006_Verify All Navigation Before Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da7c71f1-6484-43da-9948-6bca9a4d62f8</testCaseGuid>
+</TestCaseEntity>
